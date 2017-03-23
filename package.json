@@ -4,7 +4,7 @@
   "description": "Webpack can bundle multiple JS files into one or more minified js files taking in consideration dependencies and code repetition. (CommonJS style)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack --watch --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/cintiamh/ModuleBundlingWithWebpack/issues"
   },
-  "homepage": "https://github.com/cintiamh/ModuleBundlingWithWebpack#readme"
+  "homepage": "https://github.com/cintiamh/ModuleBundlingWithWebpack#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "webpack": "^2.3.1"
+  }
 }

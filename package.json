@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "Webpack can bundle multiple JS files into one or more minified js files taking in consideration dependencies and code repetition. (CommonJS style)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cintiamh/ModuleBundlingWithWebpack.git"
+  },
+  "author": "Cintia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cintiamh/ModuleBundlingWithWebpack/issues"
+  },
+  "homepage": "https://github.com/cintiamh/ModuleBundlingWithWebpack#readme"
+}
